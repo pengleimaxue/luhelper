@@ -1,0 +1,63 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '8.0'
+
+target 'FitfunAssistant' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  #use_frameworks!
+
+  # Pods for FitfunAssistant
+  pod 'Masonry'
+  pod 'SDWebImage'
+  pod 'SVProgressHUD'
+  pod 'AFNetworking'
+  pod 'IQKeyboardManager'
+  pod 'ReactiveObjC'
+  pod 'CTMediator'
+  pod 'CTNetworking','1.0.0'
+  pod 'MJRefresh'
+  #环信包含实时语音版本 SDK
+  pod 'Hyphenate'
+  #EaseUI:是一组 IM 相关的 UI 控件，旨在帮助开发者快速集成环信 SDK
+  pod 'EaseUI', :git => 'https://github.com/easemob/easeui-ios-hyphenate-cocoapods.git',:tag =>'3.3.4'
+  
+  #***********************************本地组件引用*********************
+  
+  pod 'MacroHeader',:path =>'./nativeComponent/Macro/MacroHeader.podspec'
+  pod 'PLBaseView',:path =>'./nativeComponent/PLBaseView/PLBaseView.podspec'
+  pod 'PLSegmentScrollView',:path =>'./nativeComponent/PLSegmentScrollView/PLSegmentScrollView.podspec'
+  pod 'TYCyclePagerView',:path =>'./nativeComponent/TYCyclePagerView/TYCyclePagerView.podspec'
+  pod 'DYLeftSlipManager',:path => './nativeComponent/DYLeftSlipManager/DYLeftSlipManager.podspec'
+  pod 'FitfunConst', :path => './nativeComponent/FitfunConst/FitfunConst.podspec'
+  pod 'FitfunBaseAPIManager', :path => './nativeComponent/FitfunBaseAPIManager/FitfunBaseAPIManager.podspec'
+  #pod 'FitfunRefresh', :path => './nativeComponent/FitfunRefresh/FitfunRefresh.podspec'
+  pod 'FitfunProgressHUD',:path => './nativeComponent/FitfunProgressHUD/FitfunProgressHUD.podspec'
+  pod 'MLMSegmentPageView',:path =>'./nativeComponent/MLMSegmentPageView/MLMSegmentPageView.podspec'
+  pod 'ZFPlayer',:path =>'./nativeComponent/ZFPlayer/ZFPlayer.podspec'
+  pod 'Category',:path =>'./nativeComponent/Category/Category.podspec'
+  pod 'PLLocalDataManagement',:path => './nativeComponent/PLLocalDataManagement/PLLocalDataManagement.podspec'
+  pod 'PLModuleManager', :path =>'./nativeComponent/PLModuleManager/PLModuleManager.podspec'
+  pod 'QQWeChatTool', :path =>'./nativeComponent/QQWeChatTool/QQWeChatTool.podspec'
+  pod 'FitfunModel', :path =>'./nativeComponent/FitfunModel/FitfunModel.podspec'
+  pod 'HuanXinTool', :path => './nativeComponent/HuanXinTool/HuanXinTool.podspec'
+  pod 'PLUtil', :path =>'./nativeComponent/PLUtil/PLUtil.podspec'
+  
+  #*********************************业务核心组件*********************
+  #说明带有_Target模块是调用入口，没有_Target对应模块是具体实现。目的彻底解耦，模块化
+  #初始化模块
+  pod 'FitfunLaunch', :path =>'./nativeComponent/FitfunLaunch/FitfunLaunch.podspec'
+  pod 'FitfunLaunch_Target', :path =>'./nativeComponent/FitfunLaunch_Target/FitfunLaunch_Target.podspec'
+  #登录模块
+  pod 'FitfunLogin', :path =>'./nativeComponent/FitfunLogin/FitfunLogin.podspec'
+  pod 'FitfunLogin_Target',:path =>'./nativeComponent/FitfunLogin_Target/FitfunLogin_Target.podspec'
+  #资讯模块
+  pod 'FitfunInfomation', :path => './nativeComponent/FitfunInfomation/FitfunInfomation.podspec'
+  pod 'FitfunInfomation_Target', :path => './nativeComponent/FitfunInfomation_Target/FitfunInfomation_Target.podspec'
+  #主界面
+  pod 'FitfunMainController', :path => './nativeComponent/FitfunMainController/FitfunMainController.podspec'
+  pod 'FitfunMainController_Target', :path => './nativeComponent/FitfunMainController_Target/FitfunMainController_Target.podspec'
+  
+  #左侧弹出视图 设置游戏角色信息
+  pod 'FitfunGameRoleManager', :path => './nativeComponent/FitfunGameRoleManager/FitfunGameRoleManager.podspec'
+  pod 'FitfunGameRoleManager_Target', :path => './nativeComponent/FitfunGameRoleManager_Target/FitfunGameRoleManager_Target.podspec'
+  
+end

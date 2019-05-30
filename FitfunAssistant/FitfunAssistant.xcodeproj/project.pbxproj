@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32ACDF12AD313FA4DA50E466 /* libPods-FitfunAssistant.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ACD230CEE6A9E0D54F88BC3 /* libPods-FitfunAssistant.a */; };
+		9126CF5921B1255100CA9063 /* libAFNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9126CF5A21B1255100CA9063 /* libAFNetworking.a */; };
+		9166513D218FE5A600670D91 /* AgencyFBBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9166513C218FE5A600670D91 /* AgencyFBBold.ttf */; };
+		91A36627218B16F0006FFD9C /* libCTMediator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A36636218B16F0006FFD9C /* libCTMediator.a */; };
+		91A36628218B16F0006FFD9C /* libCTNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A36637218B16F0006FFD9C /* libCTNetworking.a */; };
+		91A36629218B16F0006FFD9C /* libDYLeftSlipManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A36638218B16F0006FFD9C /* libDYLeftSlipManager.a */; };
+		91A3662A218B16F0006FFD9C /* libFitfunBaseAPIManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A36639218B16F0006FFD9C /* libFitfunBaseAPIManager.a */; };
+		91A3662B218B16F0006FFD9C /* libFitfunConst.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A3663A218B16F0006FFD9C /* libFitfunConst.a */; };
+		91A3662C218B16F0006FFD9C /* libFitfunInfomation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A3663B218B16F0006FFD9C /* libFitfunInfomation.a */; };
+		91A3662D218B16F0006FFD9C /* libIQKeyboardManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A3663C218B16F0006FFD9C /* libIQKeyboardManager.a */; };
+		91A3662E218B16F0006FFD9C /* libMasonry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A3663D218B16F0006FFD9C /* libMasonry.a */; };
+		91A3662F218B16F0006FFD9C /* libPLBaseView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A3663E218B16F0006FFD9C /* libPLBaseView.a */; };
+		91A36630218B16F0006FFD9C /* libPLSegmentScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A3663F218B16F0006FFD9C /* libPLSegmentScrollView.a */; };
+		91A36631218B16F0006FFD9C /* libReactiveObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A36640218B16F0006FFD9C /* libReactiveObjC.a */; };
+		91A36632218B16F0006FFD9C /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A36641218B16F0006FFD9C /* libSDWebImage.a */; };
+		91A36633218B16F0006FFD9C /* libSVProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A36642218B16F0006FFD9C /* libSVProgressHUD.a */; };
+		91A36634218B16F0006FFD9C /* libTYCyclePagerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91A36643218B16F0006FFD9C /* libTYCyclePagerView.a */; };
+		91ABF5BF2186FD5F00970E79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91ABF5BE2186FD5F00970E79 /* AppDelegate.m */; };
+		91ABF5C22186FD5F00970E79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91ABF5C12186FD5F00970E79 /* ViewController.m */; };
+		91ABF5C52186FD5F00970E79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91ABF5C32186FD5F00970E79 /* Main.storyboard */; };
+		91ABF5C72186FD5F00970E79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91ABF5C62186FD5F00970E79 /* Assets.xcassets */; };
+		91ABF5CA2186FD5F00970E79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91ABF5C82186FD5F00970E79 /* LaunchScreen.storyboard */; };
+		91ABF5CD2186FD5F00970E79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91ABF5CC2186FD5F00970E79 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1ACD230CEE6A9E0D54F88BC3 /* libPods-FitfunAssistant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FitfunAssistant.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22AD994D3BC70A52A08233BE /* Pods-FitfunAssistant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitfunAssistant.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitfunAssistant/Pods-FitfunAssistant.release.xcconfig"; sourceTree = "<group>"; };
+		9126CF5721B1227000CA9063 /* libFitfunLaunch_Target.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFitfunLaunch_Target.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9126CF5821B1227000CA9063 /* libFitfunLaunch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFitfunLaunch.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9126CF5A21B1255100CA9063 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9166513C218FE5A600670D91 /* AgencyFBBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AgencyFBBold.ttf; sourceTree = "<group>"; };
+		91665150219050E500670D91 /* PLPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLPrefixHeader.pch; sourceTree = "<group>"; };
+		91A36635218B16F0006FFD9C /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A36636218B16F0006FFD9C /* libCTMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCTMediator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A36637218B16F0006FFD9C /* libCTNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCTNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A36638218B16F0006FFD9C /* libDYLeftSlipManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDYLeftSlipManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A36639218B16F0006FFD9C /* libFitfunBaseAPIManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFitfunBaseAPIManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A3663A218B16F0006FFD9C /* libFitfunConst.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFitfunConst.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A3663B218B16F0006FFD9C /* libFitfunInfomation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFitfunInfomation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A3663C218B16F0006FFD9C /* libIQKeyboardManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libIQKeyboardManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A3663D218B16F0006FFD9C /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A3663E218B16F0006FFD9C /* libPLBaseView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libPLBaseView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A3663F218B16F0006FFD9C /* libPLSegmentScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libPLSegmentScrollView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A36640218B16F0006FFD9C /* libReactiveObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReactiveObjC.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A36641218B16F0006FFD9C /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A36642218B16F0006FFD9C /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A36643218B16F0006FFD9C /* libTYCyclePagerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libTYCyclePagerView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		91ABF5BA2186FD5F00970E79 /* FitfunAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitfunAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91ABF5BD2186FD5F00970E79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		91ABF5BE2186FD5F00970E79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		91ABF5C02186FD5F00970E79 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		91ABF5C12186FD5F00970E79 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		91ABF5C42186FD5F00970E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91ABF5C62186FD5F00970E79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91ABF5C92186FD5F00970E79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91ABF5CB2186FD5F00970E79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91ABF5CC2186FD5F00970E79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91BF9DC5219BBA8A0068720C /* libFitfunLogin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libFitfunLogin.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59D102C3FFC3201781EAE24 /* Pods-FitfunAssistant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitfunAssistant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitfunAssistant/Pods-FitfunAssistant.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91ABF5B72186FD5F00970E79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9126CF5921B1255100CA9063 /* libAFNetworking.a in Frameworks */,
+				91A36627218B16F0006FFD9C /* libCTMediator.a in Frameworks */,
+				91A36628218B16F0006FFD9C /* libCTNetworking.a in Frameworks */,
+				91A36629218B16F0006FFD9C /* libDYLeftSlipManager.a in Frameworks */,
+				91A3662A218B16F0006FFD9C /* libFitfunBaseAPIManager.a in Frameworks */,
+				91A3662B218B16F0006FFD9C /* libFitfunConst.a in Frameworks */,
+				91A3662C218B16F0006FFD9C /* libFitfunInfomation.a in Frameworks */,
+				91A3662D218B16F0006FFD9C /* libIQKeyboardManager.a in Frameworks */,
+				91A3662E218B16F0006FFD9C /* libMasonry.a in Frameworks */,
+				91A3662F218B16F0006FFD9C /* libPLBaseView.a in Frameworks */,
+				91A36630218B16F0006FFD9C /* libPLSegmentScrollView.a in Frameworks */,
+				91A36631218B16F0006FFD9C /* libReactiveObjC.a in Frameworks */,
+				91A36632218B16F0006FFD9C /* libSDWebImage.a in Frameworks */,
+				91A36633218B16F0006FFD9C /* libSVProgressHUD.a in Frameworks */,
+				91A36634218B16F0006FFD9C /* libTYCyclePagerView.a in Frameworks */,
+				32ACDF12AD313FA4DA50E466 /* libPods-FitfunAssistant.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A0681BEFD63D907D4173A97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9126CF5A21B1255100CA9063 /* libAFNetworking.a */,
+				9126CF5721B1227000CA9063 /* libFitfunLaunch_Target.a */,
+				9126CF5821B1227000CA9063 /* libFitfunLaunch.a */,
+				91BF9DC5219BBA8A0068720C /* libFitfunLogin.a */,
+				91A36635218B16F0006FFD9C /* libAFNetworking.a */,
+				91A36636218B16F0006FFD9C /* libCTMediator.a */,
+				91A36637218B16F0006FFD9C /* libCTNetworking.a */,
+				91A36638218B16F0006FFD9C /* libDYLeftSlipManager.a */,
+				91A36639218B16F0006FFD9C /* libFitfunBaseAPIManager.a */,
+				91A3663A218B16F0006FFD9C /* libFitfunConst.a */,
+				91A3663B218B16F0006FFD9C /* libFitfunInfomation.a */,
+				91A3663C218B16F0006FFD9C /* libIQKeyboardManager.a */,
+				91A3663D218B16F0006FFD9C /* libMasonry.a */,
+				91A3663E218B16F0006FFD9C /* libPLBaseView.a */,
+				91A3663F218B16F0006FFD9C /* libPLSegmentScrollView.a */,
+				91A36640218B16F0006FFD9C /* libReactiveObjC.a */,
+				91A36641218B16F0006FFD9C /* libSDWebImage.a */,
+				91A36642218B16F0006FFD9C /* libSVProgressHUD.a */,
+				91A36643218B16F0006FFD9C /* libTYCyclePagerView.a */,
+				1ACD230CEE6A9E0D54F88BC3 /* libPods-FitfunAssistant.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91ABF5B12186FD5F00970E79 = {
+			isa = PBXGroup;
+			children = (
+				91ABF5BC2186FD5F00970E79 /* FitfunAssistant */,
+				91ABF5BB2186FD5F00970E79 /* Products */,
+				F6DB0706C1908B6EDF0CC0BB /* Pods */,
+				4A0681BEFD63D907D4173A97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		91ABF5BB2186FD5F00970E79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91ABF5BA2186FD5F00970E79 /* FitfunAssistant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91ABF5BC2186FD5F00970E79 /* FitfunAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				91665150219050E500670D91 /* PLPrefixHeader.pch */,
+				9166513C218FE5A600670D91 /* AgencyFBBold.ttf */,
+				91ABF5CB2186FD5F00970E79 /* Info.plist */,
+				91ABF5BD2186FD5F00970E79 /* AppDelegate.h */,
+				91ABF5BE2186FD5F00970E79 /* AppDelegate.m */,
+				91ABF5C02186FD5F00970E79 /* ViewController.h */,
+				91ABF5C12186FD5F00970E79 /* ViewController.m */,
+				91ABF5C32186FD5F00970E79 /* Main.storyboard */,
+				91ABF5C62186FD5F00970E79 /* Assets.xcassets */,
+				91ABF5C82186FD5F00970E79 /* LaunchScreen.storyboard */,
+				91ABF5CC2186FD5F00970E79 /* main.m */,
+			);
+			path = FitfunAssistant;
+			sourceTree = "<group>";
+		};
+		F6DB0706C1908B6EDF0CC0BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A59D102C3FFC3201781EAE24 /* Pods-FitfunAssistant.debug.xcconfig */,
+				22AD994D3BC70A52A08233BE /* Pods-FitfunAssistant.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91ABF5B92186FD5F00970E79 /* FitfunAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91ABF5D02186FD5F00970E79 /* Build configuration list for PBXNativeTarget "FitfunAssistant" */;
+			buildPhases = (
+				B1ABF889AC89A4DDC1B3E9A1 /* [CP] Check Pods Manifest.lock */,
+				91ABF5B62186FD5F00970E79 /* Sources */,
+				91ABF5B72186FD5F00970E79 /* Frameworks */,
+				91ABF5B82186FD5F00970E79 /* Resources */,
+				90D448616C41653A77907C2E /* [CP] Copy Pods Resources */,
+				93A9CA99ADEF67B0FBCB65D7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitfunAssistant;
+			productName = FitfunAssistant;
+			productReference = 91ABF5BA2186FD5F00970E79 /* FitfunAssistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91ABF5B22186FD5F00970E79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = penglei;
+				TargetAttributes = {
+					91ABF5B92186FD5F00970E79 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 91ABF5B52186FD5F00970E79 /* Build configuration list for PBXProject "FitfunAssistant" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91ABF5B12186FD5F00970E79;
+			productRefGroup = 91ABF5BB2186FD5F00970E79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91ABF5B92186FD5F00970E79 /* FitfunAssistant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91ABF5B82186FD5F00970E79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9166513D218FE5A600670D91 /* AgencyFBBold.ttf in Resources */,
+				91ABF5CA2186FD5F00970E79 /* LaunchScreen.storyboard in Resources */,
+				91ABF5C72186FD5F00970E79 /* Assets.xcassets in Resources */,
+				91ABF5C52186FD5F00970E79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90D448616C41653A77907C2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FitfunAssistant/Pods-FitfunAssistant-resources.sh",
+				"${PODS_ROOT}/CTNetworking/CTNetworking/CTNetworking/Components/iPhoneTypeDefine.plist",
+				"${PODS_ROOT}/CTNetworking/CTNetworking/CTNetworking/Configurations/CTNetworkingConfiguration.plist",
+				"${PODS_ROOT}/EaseUI/EaseUI/resources/EaseUIResource.bundle",
+				"${PODS_ROOT}/../nativeComponent/FitfunGameRoleManager/Classes/Controller/FitfunGameRoleManagerViewController.xib",
+				"${PODS_ROOT}/../nativeComponent/FitfunLogin/Classes/Controller/FitfunLoginViewController.xib",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MWPhotoBrowser/MWPhotoBrowser.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/../nativeComponent/ZFPlayer/boundle/ZFPlayer.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/iPhoneTypeDefine.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CTNetworkingConfiguration.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EaseUIResource.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FitfunGameRoleManagerViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FitfunLoginViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MWPhotoBrowser.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZFPlayer.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitfunAssistant/Pods-FitfunAssistant-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93A9CA99ADEF67B0FBCB65D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FitfunAssistant/Pods-FitfunAssistant-frameworks.sh",
+				"${PODS_ROOT}/Hyphenate/iOS_IM_SDK_V3.3.9/HyphenateFullSDK/Hyphenate.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hyphenate.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitfunAssistant/Pods-FitfunAssistant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1ABF889AC89A4DDC1B3E9A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitfunAssistant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91ABF5B62186FD5F00970E79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91ABF5C22186FD5F00970E79 /* ViewController.m in Sources */,
+				91ABF5CD2186FD5F00970E79 /* main.m in Sources */,
+				91ABF5BF2186FD5F00970E79 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91ABF5C32186FD5F00970E79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91ABF5C42186FD5F00970E79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91ABF5C82186FD5F00970E79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91ABF5C92186FD5F00970E79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91ABF5CE2186FD5F00970E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		91ABF5CF2186FD5F00970E79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91ABF5D12186FD5F00970E79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A59D102C3FFC3201781EAE24 /* Pods-FitfunAssistant.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LP8F2AW9J7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FitfunAssistant",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FitfunAssistant/PLPrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/AFNetworking",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/CTMediator\"",
+					"\"${PODS_ROOT}/Headers/Public/CTNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/DYLeftSlipManager\"",
+					"\"${PODS_ROOT}/Headers/Public/FitfunBaseAPIManager\"",
+					"\"${PODS_ROOT}/Headers/Public/FitfunConst\"",
+					"\"${PODS_ROOT}/Headers/Public/FitfunInfomation\"",
+					"\"${PODS_ROOT}/Headers/Public/FitfunProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/FitfunRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/IQKeyboardManager\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/MLMSegmentPageView\"",
+					"\"${PODS_ROOT}/Headers/Public/MacroHeader\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/PLBaseView\"",
+					"\"${PODS_ROOT}/Headers/Public/PLSegmentScrollView\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactiveObjC\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/TYCyclePagerView\"",
+					"\"${PODS_ROOT}/Headers/Public/ZFPlayer\"",
+				);
+				INFOPLIST_FILE = FitfunAssistant/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fitfun.learn.FitfunAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91ABF5D22186FD5F00970E79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22AD994D3BC70A52A08233BE /* Pods-FitfunAssistant.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LP8F2AW9J7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FitfunAssistant",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FitfunAssistant/PLPrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/AFNetworking",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/CTMediator\"",
+					"\"${PODS_ROOT}/Headers/Public/CTNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/DYLeftSlipManager\"",
+					"\"${PODS_ROOT}/Headers/Public/FitfunBaseAPIManager\"",
+					"\"${PODS_ROOT}/Headers/Public/FitfunConst\"",
+					"\"${PODS_ROOT}/Headers/Public/FitfunInfomation\"",
+					"\"${PODS_ROOT}/Headers/Public/FitfunProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/FitfunRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/IQKeyboardManager\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/MLMSegmentPageView\"",
+					"\"${PODS_ROOT}/Headers/Public/MacroHeader\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/PLBaseView\"",
+					"\"${PODS_ROOT}/Headers/Public/PLSegmentScrollView\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactiveObjC\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/TYCyclePagerView\"",
+					"\"${PODS_ROOT}/Headers/Public/ZFPlayer\"",
+				);
+				INFOPLIST_FILE = FitfunAssistant/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fitfun.learn.FitfunAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91ABF5B52186FD5F00970E79 /* Build configuration list for PBXProject "FitfunAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91ABF5CE2186FD5F00970E79 /* Debug */,
+				91ABF5CF2186FD5F00970E79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91ABF5D02186FD5F00970E79 /* Build configuration list for PBXNativeTarget "FitfunAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91ABF5D12186FD5F00970E79 /* Debug */,
+				91ABF5D22186FD5F00970E79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91ABF5B22186FD5F00970E79 /* Project object */;
+}
